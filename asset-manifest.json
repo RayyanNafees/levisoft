@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/levisoft/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/levisoft/static/js/main.d6172c26.chunk.js",
-    "main.js.map": "/levisoft/static/js/main.d6172c26.chunk.js.map",
-    "runtime-main.js": "/levisoft/static/js/runtime-main.8e837666.js",
-    "runtime-main.js.map": "/levisoft/static/js/runtime-main.8e837666.js.map",
+    "main.css": "/levisoft/static/css/main.e2fffdc5.chunk.css",
+    "main.js": "/levisoft/static/js/main.80f2ecf4.chunk.js",
+    "main.js.map": "/levisoft/static/js/main.80f2ecf4.chunk.js.map",
+    "runtime-main.js": "/levisoft/static/js/runtime-main.246b054e.js",
+    "runtime-main.js.map": "/levisoft/static/js/runtime-main.246b054e.js.map",
     "static/css/2.acd75131.chunk.css": "/levisoft/static/css/2.acd75131.chunk.css",
-    "static/js/2.f0b10659.chunk.js": "/levisoft/static/js/2.f0b10659.chunk.js",
-    "static/js/2.f0b10659.chunk.js.map": "/levisoft/static/js/2.f0b10659.chunk.js.map",
-    "static/js/3.7b598869.chunk.js": "/levisoft/static/js/3.7b598869.chunk.js",
-    "static/js/3.7b598869.chunk.js.map": "/levisoft/static/js/3.7b598869.chunk.js.map",
+    "static/js/2.03cc90c1.chunk.js": "/levisoft/static/js/2.03cc90c1.chunk.js",
+    "static/js/2.03cc90c1.chunk.js.map": "/levisoft/static/js/2.03cc90c1.chunk.js.map",
+    "static/js/3.d18cc7e0.chunk.js": "/levisoft/static/js/3.d18cc7e0.chunk.js",
+    "static/js/3.d18cc7e0.chunk.js.map": "/levisoft/static/js/3.d18cc7e0.chunk.js.map",
     "index.html": "/levisoft/index.html",
     "static/css/2.acd75131.chunk.css.map": "/levisoft/static/css/2.acd75131.chunk.css.map",
-    "static/css/main.8c8b27cf.chunk.css.map": "/levisoft/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.f0b10659.chunk.js.LICENSE.txt": "/levisoft/static/js/2.f0b10659.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/levisoft/static/media/logo.6ce24c58.svg"
+    "static/css/main.e2fffdc5.chunk.css.map": "/levisoft/static/css/main.e2fffdc5.chunk.css.map",
+    "static/js/2.03cc90c1.chunk.js.LICENSE.txt": "/levisoft/static/js/2.03cc90c1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8e837666.js",
+    "static/js/runtime-main.246b054e.js",
     "static/css/2.acd75131.chunk.css",
-    "static/js/2.f0b10659.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.d6172c26.chunk.js"
+    "static/js/2.03cc90c1.chunk.js",
+    "static/css/main.e2fffdc5.chunk.css",
+    "static/js/main.80f2ecf4.chunk.js"
   ]
 }
