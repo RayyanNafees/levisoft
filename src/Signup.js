@@ -7,6 +7,7 @@ import Button from "@material-ui/core/Button";
 import { indigo } from "@material-ui/core/colors";
 import { Lock, LockOutlined } from "@material-ui/icons";
 
+
 const ColorButton = withStyles((theme) => ({
   root: {
     color: theme.palette.getContrastText(indigo[500]),
@@ -16,6 +17,7 @@ const ColorButton = withStyles((theme) => ({
     },
   },
 }))(Button);
+
 
 function Input({ tab, ph }) {
   return (
@@ -34,31 +36,47 @@ function Input({ tab, ph }) {
   );
 }
 
+function Nav(){
+  return (
+    <div>
+<span />
+<span />
+
+    </div>
+  )
+}
+
+
+
+
 export default function SignUp() {
   return (
-    <Form className="login">
-      <h1>Sign Up</h1>
-      <h3>
-        Already have an account ? <a href="/signin">Sign in here</a>
-      </h3>
+    <center>
+      <Form className="login">
+        <header>
+          <h1>Sign Up</h1>
+          <h3>
+            Already have an account ? <a href="/signin">Sign in here</a>
+          </h3>
+        </header>
+        <Input tab="@" ph="Email" />
+        <Input tab={<LockOutlined />} ph="Password" />
+        <Input tab={<Lock />} ph="Password Confirmation" />
 
-      <Input tab="@" ph="Email" />
-      <Input tab={<LockOutlined />} ph="Password" />
-      <Input tab={<Lock />} ph="Password Confirmation" />
-      
-      <ColorButton
-        variant="contained"
-        color="primary"
-        style={{ width: "100%" }}
-      >
-        Submit
-      </ColorButton>
-      <p style={{ marginTop: 15 }}>
-        By clicking this button, you agree to our
-        <br />
-        <a href="/privacy">Privacy Policy</a> &{" "}
-        <a href="/terms">Terms of Use</a>
-      </p>
-    </Form>
+        <ColorButton
+          variant="contained"
+          color="primary"
+          style={{ width: "100%" }}
+        >
+          Submit
+        </ColorButton>
+        <p style={{ marginTop: 15 }}>
+          By clicking this button, you agree to our
+          <br />
+          <a href="/privacy">Privacy Policy</a> &{" "}
+          <a href="/terms">Terms of Use</a>
+        </p>
+      </Form>
+    </center>
   );
 }
