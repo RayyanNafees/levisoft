@@ -12,6 +12,4 @@ const ColorButton = withStyles((theme) => ({
   },
 }))(Button);
 
-
-
 export { ColorButton };
