@@ -5,6 +5,7 @@ import "./login.css";
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import { indigo } from "@material-ui/core/colors";
+import { Lock, LockOutlined } from "@material-ui/icons";
 
 const ColorButton = withStyles((theme) => ({
   root: {
@@ -37,9 +38,14 @@ export default function SignUp() {
   return (
     <Form className="login">
       <h1>Sign Up</h1>
+      <h3>
+        Already have an account ? <a href="/signin">Sign in here</a>
+      </h3>
+
       <Input tab="@" ph="Email" />
-      <Input tab="@" ph="Password" />
-      <Input tab="@" ph="Password Confirmation" />
+      <Input tab={<LockOutlined />} ph="Password" />
+      <Input tab={<Lock />} ph="Password Confirmation" />
+      
       <ColorButton
         variant="contained"
         color="primary"
@@ -47,7 +53,7 @@ export default function SignUp() {
       >
         Submit
       </ColorButton>
-      <p style={{marginTop:15}}>
+      <p style={{ marginTop: 15 }}>
         By clicking this button, you agree to our
         <br />
         <a href="/privacy">Privacy Policy</a> &{" "}
