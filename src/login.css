@@ -2,7 +2,7 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 p {
   text-align: center;
@@ -10,6 +10,7 @@ p {
 
 .login {
   margin: 20px;
+  margin-top:60px;
   padding: 20px;
   width:350px;
   border-radius: 10px;
@@ -20,7 +21,8 @@ p {
 header h1 {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  color:rgb(1, 1, 56);
   font-weight:bolder;
 }
 
@@ -39,5 +41,6 @@ a {
 
 nav{
   display:flex;
-  justify-content:space-evenly;
+  justify-content:space-between;
+  margin:30px;
 }

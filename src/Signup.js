@@ -27,14 +27,12 @@ function Input({ tab, ph }) {
 function Nav() {
   return (
     <nav>
-      <span />
       <div id="logo">whatsmyresp</div>
       <div id="contact">Contact Us</div>
       <div id="btns">
         <Button color="primary">Sign In</Button>
         <Button color="primary" variant="contained">Sign Up for Free</Button>
       </div>
-      <span />
     </nav>
   );
 }
