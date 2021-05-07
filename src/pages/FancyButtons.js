@@ -1,5 +1,5 @@
 import Button from "@material-ui/core/Button";
-import { indigo, blue } from "@material-ui/core/colors";
+import { indigo } from "@material-ui/core/colors";
 import { withStyles } from "@material-ui/core/styles";
 
 const ColorButton = withStyles((theme) => ({
@@ -11,17 +11,5 @@ const ColorButton = withStyles((theme) => ({
     },
   },
 }))(Button);
-
-
-const SignUpBtn = withStyles((theme) => ({
-  root: {
-    color: theme.palette.getContrastText(blue[500]),
-    backgroundColor: blue[500],
-    "&:hover": {
-      backgroundColor: blue[700],
-    },
-  },
-}))(Button);
-
 
 export { ColorButton };
