@@ -12,4 +12,16 @@ const ColorButton = withStyles((theme) => ({
   },
 }))(Button);
 
+
+const SignUpBtn = withStyles((theme) => ({
+  root: {
+    color: theme.palette.getContrastText(blue[500]),
+    backgroundColor: blue[500],
+    "&:hover": {
+      backgroundColor: blue[700],
+    },
+  },
+}))(Button);
+
+
 export { ColorButton };

@@ -1,7 +1,6 @@
 import React from "react";
 import { Form, InputGroup, FormControl } from "react-bootstrap";
 import "./login.css";
-
 import Button from "@material-ui/core/Button";
 import {
   Lock,
@@ -52,7 +51,7 @@ function Nav() {
   );
 }
 
-export default function SignUp() {
+export default function SignIn() {
   return (
     <>
       <Nav />
@@ -64,7 +63,7 @@ export default function SignUp() {
               Already have an account ? <a href="/signin">Sign in here</a>
             </h3>
           </header>
-          <Input tab={<Email/>} ph="Email" />
+          <Input tab={<Email />} ph="Email" />
           <Input tab={<LockOutlined />} ph="Password" />
           <Input tab={<Lock />} ph="Password Confirmation" />
 
