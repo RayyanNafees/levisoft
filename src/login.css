@@ -36,3 +36,8 @@ header{
 a {
   text-decoration: inherit;
 }
+
+nav{
+  display:flex;
+  justify-content:space-evenly;
+}
