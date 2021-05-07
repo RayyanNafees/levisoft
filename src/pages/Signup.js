@@ -1,26 +1,16 @@
 import React from "react";
 import { Form, InputGroup, FormControl } from "react-bootstrap";
-import "./login.css";
-
-import Button from "@material-ui/core/Button";
 import {
   Lock,
   LockOutlined,
   AlternateEmailOutlined as Email,
 } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 
 import { ColorButton } from "./FancyButtons";
+import Nav from "./Nav";
+import "./login.css";
 
-let Btn = ({ txt }) => (
-  <Button color="primary" style={{ textTransform: "none" }}>
-    {txt}
-  </Button>
-);
-let Butn = ({ txt }) => (
-  <Button color="primary" style={{ textTransform: "none" }} variant="contained">
-    {txt}
-  </Button>
-);
 
 function Input({ tab, ph }) {
   return (
@@ -39,19 +29,6 @@ function Input({ tab, ph }) {
   );
 }
 
-function Nav() {
-  return (
-    <nav>
-      <div id="logo">whatsmyresp</div>
-      <div id="contact">Contact Us</div>
-      <div id="btns">
-        <Btn txt="Sign In" />
-        <Butn txt="Sign Up for Free" />
-      </div>
-    </nav>
-  );
-}
-
 export default function SignUp() {
   return (
     <>
@@ -61,10 +38,10 @@ export default function SignUp() {
           <header>
             <h1>Sign Up</h1>
             <h3>
-              Already have an account ? <a href="/signin">Sign in here</a>
+              Already have an account ? <Link to="/signin">Sign in here</Link>
             </h3>
           </header>
-          <Input tab={<Email/>} ph="Email" />
+          <Input tab={<Email />} ph="Email" />
           <Input tab={<LockOutlined />} ph="Password" />
           <Input tab={<Lock />} ph="Password Confirmation" />
 
@@ -78,8 +55,8 @@ export default function SignUp() {
           <p style={{ marginTop: 15 }}>
             By clicking this button, you agree to our
             <br />
-            <a href="/privacy">Privacy Policy</a> &{" "}
-            <a href="/terms">Terms of Use</a>
+            <Link to="/privacy">Privacy Policy</Link> &
+            <Link to="/terms">Terms of Use</Link>
           </p>
         </Form>
       </center>
